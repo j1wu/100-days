@@ -11,16 +11,21 @@ def large_cont_sum(arr):
   >>> large_cont_sum([-1,1])
   1
   """
-  sum = 0
-  sum_lst = arr[:]
-  sum_lst.append(sum)
+  if len(arr) == 0:
+    return 0
 
-  for elem in arr:
-    sum += elem
-    sum_lst.append(sum)
+  max_sum = current_sum = arr[0]
 
-  large_sum = max(sum_lst)
-  return large_sum
+  for num in arr[1:]:
+    current_sum += num
+
+    if current_sum < num:
+      current_sum = num
+
+    if current_sum > max_sum:
+      max_sum = current_sum
+
+  return max_sum
 
 
 if __name__ == '__main__':
