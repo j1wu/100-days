@@ -2,6 +2,9 @@ import doctest
 
 def longest_substring(s):
   """
+  Created on: 2017-06-10 22:24:38
+  Author: Ji Wu
+
   Prints the longest substring of s in which the letters occur in alphabetical order.
 
   >>> longest_substring('azcbobobegghakl')

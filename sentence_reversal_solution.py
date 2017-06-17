@@ -2,6 +2,9 @@ import doctest
 
 def rev_word(s):
   """
+  Created on: 2017-06-07 22:24:38
+  Author: Ji Wu
+
   Given a string of words, reverse all the words.
 
   >>> rev_word('    space before')

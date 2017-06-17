@@ -2,6 +2,9 @@ import doctest
 
 def fib(n):
   """
+  Created on: 2017-06-12 22:24:38
+  Author: Ji Wu
+
   In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones.
 
   >>> fib(0)

@@ -2,6 +2,9 @@ import doctest
 
 def large_cont_sum(arr):
   """
+  Created on: 2017-06-05 22:24:38
+  Author: Ji Wu
+
   Given an array of integers (positive and negative) find the largest continuous sum.
 
   >>> large_cont_sum([1,2,-1,3,4,-1])

@@ -1,5 +1,8 @@
 class Queue(object):
   """
+  Created on: 2017-06-08 22:24:38
+  Author: Ji Wu
+
   * Check if Queue is Empty
   * Enqueue
   * Dequeue

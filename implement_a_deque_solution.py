@@ -1,5 +1,8 @@
 class Deque(object):
   """
+  Created on: 2017-06-09 22:24:38
+  Author: Ji Wu
+
   * Check if its empty
   * Add to both front and rear
   * Remove from Front and Rear

@@ -2,6 +2,9 @@ import doctest
 
 def finder(arr1,arr2):
   """
+  Created on: 2017-06-04 22:24:38
+  Author: Ji Wu
+
   Consider an array of non-negative integers. A second array is formed by shuffling the elements of the first array and deleting a random element. Given these two arrays, find which element is missing in the second array.
 
   >>> finder([5,5,7,7],[5,7,7])

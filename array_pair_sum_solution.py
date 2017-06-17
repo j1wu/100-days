@@ -2,6 +2,9 @@ import doctest
 
 def pair_sum(arr,k):
   """
+  Created on: 2017-06-03 22:24:38
+  Author: Ji Wu
+
   Given an integer array, output all the unique pairs that sum up to a specific value k.
 
   >>> pair_sum([1,9,2,8,3,7,4,6,5,5,13,14,11,13,-1],10)

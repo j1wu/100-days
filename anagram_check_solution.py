@@ -2,6 +2,9 @@ import doctest
 
 def anagram(s1,s2):
   """
+  Created on: 2017-06-03 22:24:38
+  Author: Ji Wu
+
   Given two strings, check to see if they are anagrams. An anagram is when the two strings can be written using the exact same letters (so you can just rearrange the letters to get a different phrase or word).
 
   >>> anagram('go go go','gggooo')

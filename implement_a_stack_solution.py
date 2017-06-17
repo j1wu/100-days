@@ -1,5 +1,8 @@
 class Stack(object):
   """
+  Created on: 2017-06-08 22:24:38
+  Author: Ji Wu
+
   * Check if its empty
   * Push a new item
   * Pop an item

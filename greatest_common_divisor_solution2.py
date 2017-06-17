@@ -2,6 +2,9 @@ import doctest
 
 def gcd(a, b):
   """
+  Created on: 2017-06-12 22:24:38
+  Author: Ji Wu
+
   Find the greatest common divisor of two positive integers, which is the largest integer that divides each of them without remainder.
 
   >>> gcd(2, 12)
